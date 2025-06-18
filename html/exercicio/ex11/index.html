@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5 </title>
+</head>
+<body>
+    <h1>midias dinamicas</h1>
+    <p>tente abrir este site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagemp.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/imgm.png" type="image/png">
+        <img src="imagens/imgg.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios em html5</p>
+     <audio preload="metadata" autoplay controls loop>
+        <source src="midia/illogical - Norma Rockwell.mp3" type="audio/mpeg">
+        <source src="midia/illogical - Norma Rockwell.ogg" type="audio/ogg">
+        <source src="midia/illogical - Norma Rockwell.wav" type="audio/wav">
+        <p>infelizmente seu navegador n consegue solicitar esse audio, baixe o arquivo. <a href="midia/illogical - Norma Rockwell.mp3">este arquivo.</a></p>
+     </audio>
+     <h1>Videos com html5</h1>
+     <p>este video esta hospedado no meu proprio servidor.</p>
+
+    
+    <video width="500"  poster="midia/th (1).jpg" controls> 
+    <source src="videos/12214421 3840 2160 30Fps.mkv" type="video/mkv">
+    <source src="videos/12214421 3840 2160 30Fps.mp4" type="video/mp4">
+    <source src="videos/12214421 3840 2160 30Fps.webm" type="video/webm">
+<p>seu navegador nao tem compatibilidade com os videos </p>
+    </video>
+    
+
+</body>
+</html>
