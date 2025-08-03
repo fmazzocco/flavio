@@ -23,15 +23,16 @@
     <table>
         <thead>
             <tr>
-                <th colspan="2" rowspan="2">Area</th>
-                <th  colspan="2" rowspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
+                <th colspan="2" rowspan="2" scope="rowgroup">Area</th>
+                <th  colspan="2" rowspan="2" scope="rowgroup">Disciplinas</th>
+                <th colspan="2" scope="rowgroup" scope="rowgroup">Notas</th>
+                <th rowspan="2" scope="rowgroup" scope="rowgroup">Média</th>
             </tr>
             <tr>
                 <th>Nota 1</th>
                 <th>Nota 2</th>
             </tr>
+        </thead>
             <tbody>
                 <tr>
                     <td colspan="2" rowspan="4"><strong>Exatas</strong></td>
@@ -82,7 +83,7 @@
                     <td style="background-color: gray; color: white;">00</td>
                 </tr>
             </tbody>
-        </thead>
+        
     </table>
 </body>
 </html>
